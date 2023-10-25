@@ -1,0 +1,40 @@
+main {
+    background-image: none;
+    #intro { 
+        width: 100%; /* Extend 20% to the left and 20% to the right */
+        //height: 100%;
+        //margin-left: -10%; /* Offset for the left side */
+        //margin-right: -10%; /* Offset for the right side */
+        //filter: blur(1px);
+        object-fit: cover;
+
+
+        #video-container {
+            top: 0;
+            left: 0;
+            z-index: -1;
+            overflow: hidden;
+            object-fit: cover;
+
+        }
+        #video-container iframe {
+            object-fit: cover;
+        }
+
+        #welcome-box {
+            border-radius: 20px;
+            background: rgba(0, 0, 0, 0.50);
+            width: 572px;
+            height: 286px; 
+        }
+        
+    }
+    #gallery {
+        img { 
+            width: 100px;
+            height: 100px;
+        }
+
+
+    }
+}

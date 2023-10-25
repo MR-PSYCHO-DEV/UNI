@@ -1,0 +1,14 @@
+@import './variables';
+@import './header';
+@import './main';
+@import './footer';
+
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    overflow-x: hidden;
+};

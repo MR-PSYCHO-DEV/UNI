@@ -1,0 +1,36 @@
+footer {
+    display: grid;
+    grid-template-rows: auto auto auto; /* Three rows for icons, links, and copyright text */
+    gap: 10px; /* Adjust the gap between rows */
+    background-color: #2D2D2D;
+    color: white;
+    text-align: center;
+    padding-top: 1%;
+
+
+
+    a {
+        text-decoration: none;
+        color: white;
+
+    }
+    a:hover { 
+        color: green;
+    }
+
+
+    #icons, #links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    ion-icon { 
+        font-size: 40px;
+    }
+    
+    #icons a, #links a {
+        margin: 0 10px; /* Adjust spacing between icons/links */
+    }
+}
+
